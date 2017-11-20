@@ -1,0 +1,75 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #6A5ACD;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+.main {
+  height: 400px;
+  background: url("http://ak8.picdn.net/shutterstock/videos/10416548/thumb/1.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+.btn-primary {
+  text-shadow: none;
+}
+
+.supporting {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.secondary {
+  height: 400px;
+  background: url("http://www.powerpointhintergrund.com/uploads/clouds-background-ppt-15.jpg");
+  background-size: cover;
+}
+
+.discover {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0 20px 0;
+  background-color: #6A5ACD;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer .col-sm-1 {
+  margin: 0 10px 0 10px;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
