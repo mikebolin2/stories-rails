@@ -1,0 +1,33 @@
+.signup-main {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("http://images.all-free-download.com/images/graphicthumb/grass_background_201062.jpg");
+  background-size: cover;
+}
+.signup-main .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  padding-bottom: 40px;
+}
+
+.signup-main .btn-primary {
+  margin-top: 20px;
+  text-shadow: none;
+}
+
+.signup-main .row .text-center {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #6A5ACD;
+}

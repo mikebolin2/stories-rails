@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Stories</title>
+  <title>Stories About</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900" rel="stylesheet">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -22,7 +22,8 @@
       <div class="row text-center">
         <h2>Read Stories with Banjo</h2>
         <h4>The best stories a dog can offer all for your enjoyment</h4>
-         <a href="#" role="button" class="btn btn-primary">Sign Up</a>
+        <%= link_to "", '/signups/new' %>
+        <a href="/signups/new" role="button" class="btn btn-primary">Sign Up</a>
       </div>
     </div>
   </section>
@@ -42,6 +43,5 @@
     </div>
   </section>
 
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 </body>
 </html>

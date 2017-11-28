@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stories Signups</title>
+  <%= stylesheet_link_tag    'signups', media: 'all', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <section class="signup-main">
+    <div class="container">
+      <div class="row text-center">
+        <h1>Sign up</h1>
+        <%= form_for @signup do |f| %>
+          <%= f.label :firstname %>
+          <%= f.text_field :firstname, class: 'form-control' %>
+          <%= f.label :email %>
+          <%= f.email_field :email, class: 'form-control' %>
+          <%= f.submit "Save changes", class: "btn btn-primary" %>
+        <% end %>
+        
+      </div>
+    </div>
+  </section>
+        
+  
+  
+  
+ 
+  
+</body>
+</html>
